@@ -31,11 +31,11 @@ There are **two main integration tracks**, depending on your needs:
 
 2. **Server-side integration**  
    → [server_integration.md](server_integration.md)  
-   How to connect your backend to our system. Covers:
-   - Generating and signing HMAC-based JWTs.  
-   - Managing user lifecycle (create/ensure).  
-   - Session orchestration and webhooks.  
-   - Security, key rotation, and replay protection.
+   REST API endpoints for accessing data from your backend. Covers:
+   - JWT-based authentication with HMAC signatures.  
+   - Listing available experiences and their capabilities.  
+   - Retrieving user information and session history.  
+   - Accessing detailed session transcripts and analytics.
 
 ---
 
@@ -54,4 +54,4 @@ If you are a product manager, integrator, or technical lead, you’ll find high-
 
 ---
 
-We’re excited to see what you build with Persona Avatars. 🚀  
+We’re excited to see what you build with Persona Avatars. 🚀
